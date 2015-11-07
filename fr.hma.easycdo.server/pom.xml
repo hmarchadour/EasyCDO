@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>fr.hma</groupId>
+		<artifactId>fr.hma.easycdo</artifactId>
+		<version>1.0</version>
+	</parent>
+	<artifactId>fr.hma.easycdo.server</artifactId>
+	<packaging>jar</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.eclipselabs</groupId>
+			<artifactId>cdo</artifactId>
+			<version>${cdo.version}</version>
+			<type>pom</type>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipselabs</groupId>
+			<artifactId>net4j</artifactId>
+			<version>${cdo.version}</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipselabs</groupId>
+			<artifactId>net4j.jvm</artifactId>
+			<version>${cdo.version}</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipselabs</groupId>
+			<artifactId>net4j.h2</artifactId>
+			<version>${cdo.version}</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipselabs</groupId>
+			<artifactId>net4j.mysql</artifactId>
+			<version>${cdo.version}</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipselabs</groupId>
+			<artifactId>net4j.postgresql</artifactId>
+			<version>${cdo.version}</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipselabs</groupId>
+			<artifactId>net4j.jvm</artifactId>
+			<version>${cdo.version}</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>9.4-1204-jdbc42</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.37</version>
+		</dependency>
+	</dependencies>
+
+</project>
